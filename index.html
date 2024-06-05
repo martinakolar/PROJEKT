@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unos albuma</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .cinzel {
+            font-family: "Cinzel", serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body class="cinzel">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="navbar-nav">
+                <a class="nav-link" href="popis_albuma.php">Popis albuma</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Unos albuma</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 col-4">
+        <h3>Unesi novi album!</h3>
+        <form action="unos.php" method="POST" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="naziv">Album:</label>
+                <input class="form-control" type="text" id="naziv" name="naziv" required>
+            </div>
+            <div class="mb-3">
+                <label for="bend">Bend:</label>
+                <input class="form-control" type="text" id="bend" name="bend" required>
+            </div>
+            <div class="mb-3">
+                <label for="zanr">Žanr:</label>
+                <input class="form-control" type="text" id="zanr" name="zanr" required>
+            </div>
+            <div class="mb-3">
+                <label for="godina">Godina izdanja:</label>
+                <input class="form-control" type="number" id="godina" name="godina" required>
+            </div>
+            <div class="mb-3">
+                <label for="slika">Slika albuma (opcionalno):</label>
+                <input class="form-control" type="file" id="slika" name="slika" accept="image/*">
+            </div>
+            <button type="submit" class="btn btn-light">Unesi</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span>&copy; 2024 Martina Kolar</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+
+</html>

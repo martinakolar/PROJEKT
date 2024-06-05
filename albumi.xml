@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<albumi>
+    <album id="1">
+        <naziv>Mirage</naziv>
+        <bend>Gaerea</bend>
+        <zanr>Black metal</zanr>
+        <godina>2022</godina>
+        <slika>image_2024-06-03_231329188.png</slika>
+    </album>
+    <album id="2">
+        <naziv>Mgła</naziv>
+        <bend>Exercises in Futility</bend>
+        <zanr>Black metal</zanr>
+        <godina>2015</godina>
+        <slika>image_2024-06-03_231513208.png</slika>
+    </album>
+    <album id="3">
+        <naziv>Vile Nilotic Rites</naziv>
+        <bend>Nile</bend>
+        <zanr>Technical death metal</zanr>
+        <godina>2019</godina>
+        <slika>image_2024-06-03_231703764.png</slika>
+    </album>
+    <album id="4">
+        <naziv>Scream Bloody Gore</naziv>
+        <bend>Death</bend>
+        <zanr>Death metal</zanr>
+        <godina>1987</godina>
+        <slika>image_2024-06-03_234655103.png</slika>
+    </album>
+    <album id="5">
+        <naziv>GRAVESIDE CONFESSIONS</naziv>
+        <bend>Carnifex</bend>
+        <zanr>Deathcore</zanr>
+        <godina>2021</godina>
+        <slika>image_2024-06-03_234824992.png</slika>
+    </album>
+    <album id="6">
+        <naziv>Blackwater Park</naziv>
+        <bend>Opeth</bend>
+        <zanr>Progressive metal</zanr>
+        <godina>2001</godina>
+        <slika>image_2024-06-03_234930355.png</slika>
+    </album>
+    <album id="7">
+        <naziv>Filosofem</naziv>
+        <bend>Burzum</bend>
+        <zanr>Black metal</zanr>
+        <godina>1996</godina>
+        <slika>image_2024-06-03_235215468.png</slika>
+    </album>
+    <album id="8">
+        <naziv>None so Vile</naziv>
+        <bend>Cryptopsy</bend>
+        <zanr>Death metal</zanr>
+        <godina>1996</godina>
+        <slika>image_2024-06-03_235114746.png</slika>
+    </album>
+    <album id="9">
+        <naziv>Paracletus</naziv>
+        <bend>Deathspell Omega</bend>
+        <zanr>Black metal</zanr>
+        <godina>2010</godina>
+        <slika>image_2024-06-03_235357893.png</slika>
+    </album>
+    <album id="10">
+        <naziv>Ashen</naziv>
+        <bend> Humanity's Last Breath</bend>
+        <zanr>Deathcore</zanr>
+        <godina>2023</godina>
+        <slika>image_2024-06-03_235801997.png</slika>
+    </album>
+    <album id="11">
+        <naziv>Lugal Ki En</naziv>
+        <bend>Rings of Saturn</bend>
+        <zanr>Deathcore</zanr>
+        <godina>2014</godina>
+        <slika>image_2024-06-03_235929234.png</slika>
+    </album>
+    <album id="12">
+        <naziv>Autotheism</naziv>
+        <bend>The Faceless</bend>
+        <zanr>Technical death metal</zanr>
+        <godina>2012</godina>
+        <slika>image_2024-06-05_123446621.png</slika>
+    </album>
+</albumi>
